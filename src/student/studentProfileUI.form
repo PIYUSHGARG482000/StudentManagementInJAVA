@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-33,0,0,2,-43"/>
+    <SyntheticProperty name="formPosition" type="java.awt.Point" value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,80,111,105,110,116,-74,-60,-118,114,52,126,-56,38,2,0,2,73,0,1,120,73,0,1,121,120,112,0,0,0,0,0,0,0,0"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generatePosition" type="boolean" value="true"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="122" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="rollno" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="name" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="standard" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="fathersname" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="mothersname" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dob" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="country" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="State" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="pincode" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="studentemail" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="gender" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="parentsnumber" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="227" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="dbrollno" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbname" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbstandard" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbfathername" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbmothername" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbdob" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbcountry" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbstate" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbpincode" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbstudentemail" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbgender" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbparentsnumber" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="223" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="studentprofile" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="ok" alignment="2" min="-2" pref="109" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Component id="studentprofile" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="rollno" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbrollno" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="name" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbname" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="standard" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbstandard" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="dbfathername" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="fathersname" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="dbmothername" min="-2" max="-2" attributes="0"/>
+                  <Component id="mothersname" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="dob" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbdob" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="country" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbcountry" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="State" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbstate" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="dbpincode" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="pincode" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="studentemail" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbstudentemail" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="gender" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbgender" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="parentsnumber" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="dbparentsnumber" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Component id="ok" min="-2" pref="46" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="308" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.Label" name="studentprofile">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Franklin Gothic Heavy" size="36" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="MY PROFILE"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="rollno">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Roll No. : "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="name">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Name : "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="standard">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Standard : "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="fathersname">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Father&apos;s Name : "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="mothersname">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Mother&apos;s Name : "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="dob">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Date of Birth : "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="country">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Country : "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="State">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="State : "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="pincode">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Pincode : "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="studentemail">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Student&apos;s Email ID : "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="gender">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Gender : "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="parentsnumber">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Parent&apos;s Number : "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="ok">
+      <Properties>
+        <Property name="actionCommand" type="java.lang.String" value="Ok"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="1"/>
+        </Property>
+        <Property name="label" type="java.lang.String" value="Ok"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="okActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="dbrollno">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="dbname">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="dbstandard">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="dbfathername">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="dbmothername">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="dbdob">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="dbcountry">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="dbstate">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="dbpincode">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="dbstudentemail">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="dbgender">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="dbparentsnumber">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
